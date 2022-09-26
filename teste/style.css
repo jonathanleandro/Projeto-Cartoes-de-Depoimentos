@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+    *{
+        margin: 0px;
+        padding: 0px;
+    }
+
+.container{
+    display: grid;
+    grid-template-areas: "A B C";
+}
+
+img{
+    grid-area: A;
+}
+
+.tipo-a{
+    grid-area: B;
+}
+
+.tipo-b{
+    grid-area: C;
+}
